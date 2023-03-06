@@ -139,6 +139,10 @@ select {
 .fl-b {
     display: flex;
     justify-content: space-between;
+    text-overflow: ellipsis;
+    gap: 10px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .pb-2 {
