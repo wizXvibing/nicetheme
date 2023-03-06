@@ -1,0 +1,102 @@
+/* Подключение шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --font-family: 'Inter', sans-serif; /* Шрифт используемый на сайте */
+    --t-size-xl: 17px; /* Размер шрифта (Большой) */
+    --t-size-md: 15px; /* Размер шрифта (Средний) */
+    --t-size-sm: 13px; /* Размер шрифта (Маленький) */
+
+
+    --bg-1: #121212; /* Цвет основного фона */
+    --bg-2: #272727; /* Дополнительный цвет к фону */
+
+    --bg-btn: #3349ff; /* Цвет кнопок */
+    --bg-btn-hover: #313fb2; /* Ховер кнопки */
+    --bg-btn-tc: #fff; /* Цвет текста кнопки */
+    --bg-cell: #191919; /* Цвет ячеек */
+    --bg-cell-r: linear-gradient(to right, #8a0b31, #501414); /* Цвет админ ячейки */
+    --bg-btn-b: #343434; /* Цвет кнопки назад и.т.п */
+    --bg-btn-b-hover: #4c4c4c; /* Ховер кнопки назад и.т.п */
+
+    --t-1: #FFF; /* Цвет текста - 1 */
+    --t-2: #c7c7c7; /* Цвет текста - 2 */
+    --t-3: #ffffff3d; /* Цвет текста - 3 */
+    --t-4: #FF4141; /* Цвет текста - warn */
+
+    --t-xl: 600; /* Ширина шрифта (Большой) */
+    --t-md: 500; /* Ширина шрифта (Средний) */
+    --t-sm: 400; /* Ширина шрифта (Маленький) */
+
+    --b-rad: 10px; /* Закругление блоков */
+    --b-rad-cell: 20px; /* Закругление основных блоков */
+}
+
+.white {
+    --bg-1: #ffffff; /* Цвет основного фона */
+    --bg-2: #f7f7f7; /* Дополнительный цвет к фону */
+
+    --bg-cell: #f1f1f1; /* Цвет ячеек */
+    --bg-cell-r: linear-gradient(to right, #8a0b31, #fd7474); /* Цвет админ ячейки */
+    --bg-btn-b: #ebebeb; /* Цвет кнопки назад и.т.п */
+    --bg-btn-b-hover: #c9c9c9; /* Ховер кнопки назад и.т.п */
+
+    --t-1: #000; /* Цвет текста - 1 */
+    --t-2: #3c3c3c; /* Цвет текста - 2 */
+    --t-3: #0000003d; /* Цвет текста - 3 */
+    --t-4: #FF4141; /* Цвет текста - warn */
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+
+/* TEXT STYLES */
+
+.t-1 {
+    color: var(--t-1);
+}
+
+.t-2 {
+    color: var(--t-2);
+}
+
+.t-3 {
+    color: var(--t-3);
+}
+
+.t-4 {
+    color: var(--t-4);
+}
+
+.t-xl {
+    font-weight: var(--t-xl);
+}
+
+.t-md {
+    font-weight: var(--t-md);
+}
+
+.t-sm {
+    font-weight: var(--t-sm);
+}
+
+.t-size-xl {
+    font-size: var(--t-size-xl);
+}
+
+.t-size-md {
+    font-size: var(--t-size-md);
+}
+
+.t-size-sm {
+    font-size: var(--t-size-sm);
+}
