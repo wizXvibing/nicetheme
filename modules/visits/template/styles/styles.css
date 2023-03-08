@@ -310,17 +310,17 @@ th, td {
 }
 
 table img {
-    border-radius: var(--b-rad);
+    border-radius: 50%;
     display: flex;
-    height: 29px;
-    width: 29px;
-    filter: invert(14%) sepia(36%) saturate(3%) hue-rotate(353deg) brightness(103%) contrast(101%);
-
+    height: 45px;
+    width: 45px;
     transition: all .2s;
+
+    animation: zoomIn 0.5s;
 }
 
 table img:hover {
-    opacity: 0.7;
+    transform: scale(0.9);
 }
 
 .daterangepicker {

@@ -270,6 +270,12 @@ img.arrow {
   opacity: .7;
 }
 
+.nicetext {
+  background: linear-gradient(to right, hsl(354deg 94% 64%), hsl(47deg 72% 56%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .three-balls {
   margin: 0 auto;
   text-align: center;
