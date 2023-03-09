@@ -46,6 +46,6 @@ if (isset($_COOKIE["tokeq"]) && !empty($_COOKIE["tokeq"])) {
     <footer>
         <p class="t-sm t-3">SystemPanel</p>
         <p class="t-sm t-3">Web By AUTHTERN</p>
-        <p class="t-sm t-3">Nice Theme By wizard</p>
+        <p class="t-sm t-3"><span class="nicetext">Nice Theme</span> By wizard</p>
     </footer>
 </div>
